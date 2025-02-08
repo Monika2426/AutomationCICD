@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="3" failed="1" skipped="1">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-02-08T07:30:10 CST" name="Suite" finished-at="2025-02-08T07:30:47 CST" duration-ms="37718">
+    <groups>
+      <group name="ErrorHandling">
+        <method signature="ErrorValidationsTest.loginFailCheck()[pri:0, instance:udemycourse.tests.ErrorValidationsTest@4f49f6af]" name="loginFailCheck" class="udemycourse.tests.ErrorValidationsTest"/>
+      </group> <!-- ErrorHandling -->
+      <group name="Purchase">
+        <method signature="SubmitOrderTest.submitOrder(java.util.HashMap)[pri:0, instance:udemycourse.tests.SubmitOrderTest@48e1f6c7]" name="submitOrder" class="udemycourse.tests.SubmitOrderTest"/>
+      </group> <!-- Purchase -->
+    </groups>
+    <test started-at="2025-02-08T07:30:10 CST" name="Error Validation Test" finished-at="2025-02-08T07:30:45 CST" duration-ms="34997">
+      <class name="udemycourse.tests.ErrorValidationsTest">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:udemycourse.tests.ErrorValidationsTest@4f49f6af]" started-at="2025-02-08T07:30:10 CST" name="launchApplication" finished-at="2025-02-08T07:30:20 CST" duration-ms="10257" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="loginFailCheck()[pri:0, instance:udemycourse.tests.ErrorValidationsTest@4f49f6af]" started-at="2025-02-08T07:30:20 CST" name="loginFailCheck" finished-at="2025-02-08T07:30:24 CST" duration-ms="4662" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginFailCheck -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:udemycourse.tests.ErrorValidationsTest@4f49f6af]" started-at="2025-02-08T07:30:24 CST" name="tearDown" finished-at="2025-02-08T07:30:26 CST" duration-ms="1653" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:udemycourse.tests.ErrorValidationsTest@4f49f6af]" started-at="2025-02-08T07:30:26 CST" name="launchApplication" finished-at="2025-02-08T07:30:30 CST" duration-ms="3400" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="productErrorValidation()[pri:0, instance:udemycourse.tests.ErrorValidationsTest@4f49f6af]" started-at="2025-02-08T07:30:30 CST" name="productErrorValidation" finished-at="2025-02-08T07:30:44 CST" duration-ms="14433" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- productErrorValidation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:udemycourse.tests.ErrorValidationsTest@4f49f6af]" started-at="2025-02-08T07:30:44 CST" name="tearDown" finished-at="2025-02-08T07:30:45 CST" duration-ms="532" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- udemycourse.tests.ErrorValidationsTest -->
+    </test> <!-- Error Validation Test -->
+    <test started-at="2025-02-08T07:30:10 CST" name="Submit order Test" finished-at="2025-02-08T07:30:47 CST" duration-ms="37718">
+      <class name="udemycourse.tests.SubmitOrderTest">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:udemycourse.tests.SubmitOrderTest@48e1f6c7]" started-at="2025-02-08T07:30:10 CST" name="launchApplication" finished-at="2025-02-08T07:30:18 CST" duration-ms="7998" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="submitOrder(java.util.HashMap)[pri:0, instance:udemycourse.tests.SubmitOrderTest@48e1f6c7]" started-at="2025-02-08T07:30:18 CST" name="submitOrder" data-provider="getData" finished-at="2025-02-08T07:30:32 CST" duration-ms="13858" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=Udemy@1234, product=BANARSI SAREE, email=Udemy1@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitOrder -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:udemycourse.tests.SubmitOrderTest@48e1f6c7]" started-at="2025-02-08T07:30:32 CST" name="tearDown" finished-at="2025-02-08T07:30:32 CST" duration-ms="426" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:udemycourse.tests.SubmitOrderTest@48e1f6c7]" started-at="2025-02-08T07:30:32 CST" name="launchApplication" finished-at="2025-02-08T07:30:39 CST" duration-ms="7090" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="submitOrder(java.util.HashMap)[pri:0, instance:udemycourse.tests.SubmitOrderTest@48e1f6c7]" started-at="2025-02-08T07:30:39 CST" name="submitOrder" data-provider="getData" finished-at="2025-02-08T07:30:46 CST" duration-ms="7047" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=Iamking@000, product=IPHONE 13 PRO, email=anshika@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "org.openqa.selenium.WebElement.findElement(org.openqa.selenium.By)" because "prod" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebElement.findElement(org.openqa.selenium.By)" because "prod" is null
+at udemycourse.pageobjects.ProductCatalogue.addItemToCart(ProductCatalogue.java:54)
+at udemycourse.tests.SubmitOrderTest.submitOrder(SubmitOrderTest.java:30)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitOrder -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:udemycourse.tests.SubmitOrderTest@48e1f6c7]" started-at="2025-02-08T07:30:47 CST" name="tearDown" finished-at="2025-02-08T07:30:47 CST" duration-ms="301" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="orderHistoryTest()[pri:0, instance:udemycourse.tests.SubmitOrderTest@48e1f6c7]" started-at="2025-02-08T07:30:47 CST" name="orderHistoryTest" finished-at="2025-02-08T07:30:47 CST" depends-on-methods="udemycourse.tests.SubmitOrderTest.submitOrder" duration-ms="0" status="SKIP">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method udemycourse.tests.SubmitOrderTest.orderHistoryTest() on instance udemycourse.tests.SubmitOrderTest@48e1f6c7 depends on not successfully finished methods 
+[udemycourse.tests.SubmitOrderTest.submitOrder() on instance udemycourse.tests.SubmitOrderTest@48e1f6c7]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method udemycourse.tests.SubmitOrderTest.orderHistoryTest() on instance udemycourse.tests.SubmitOrderTest@48e1f6c7 depends on not successfully finished methods 
+[udemycourse.tests.SubmitOrderTest.submitOrder() on instance udemycourse.tests.SubmitOrderTest@48e1f6c7]
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:159)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- orderHistoryTest -->
+      </class> <!-- udemycourse.tests.SubmitOrderTest -->
+    </test> <!-- Submit order Test -->
+  </suite> <!-- Suite -->
+</testng-results>
