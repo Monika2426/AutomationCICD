@@ -17,6 +17,7 @@ public class StandAloneTest {
 
 	public static void main(String[] args) throws InterruptedException {
 		
+//comments
 		String productname="BANARSI SAREE";
 		WebDriver driver=new ChromeDriver();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
