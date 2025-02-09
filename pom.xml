@@ -86,7 +86,8 @@
 							<version>3.0.0-M6</version>
 							<configuration>
 								<suiteXmlFiles>
-									<suiteXmlFile>testSuites/testng.xml</suiteXmlFile>
+									<suiteXmlFile>testsuites/testng.xml</suiteXmlFile>
+
 								</suiteXmlFiles>
 							</configuration>
 						</plugin>
@@ -127,7 +128,8 @@
 							<version>3.0.0-M6</version>
 							<configuration>
 								<suiteXmlFiles>
-									<suiteXmlFile>testSuites/Purchase.xml</suiteXmlFile>
+									<suiteXmlFile>testsuites/Purchase.xml</suiteXmlFile>
+
 								</suiteXmlFiles>
 							</configuration>
 						</plugin>
@@ -148,7 +150,11 @@
 							<configuration>
 								<suiteXmlFiles>
 									<suiteXmlFile>
+<<<<<<< HEAD
 										testSuites/ErrorValidationTests.xml</suiteXmlFile>
+=======
+										testsuites/ErrorValidationTests.xml</suiteXmlFile>
+>>>>>>> de7c3d8 (pomm)
 								</suiteXmlFiles>
 							</configuration>
 						</plugin>
